@@ -20,7 +20,7 @@ from langchain.vectorstores import FAISS
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.document_loaders import UnstructuredFileLoader
 from langchain.text_splitter import NLTKTextSplitter, SentenceTransformersTokenTextSplitter
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = ___
 
 
 # text_splitter = RecursiveCharacterTextSplitter(
